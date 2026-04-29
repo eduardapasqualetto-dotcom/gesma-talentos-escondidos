@@ -331,6 +331,26 @@ function launchConfetti() {{
   draw();
 }}
 </script>
+    <!-- SLIDE FINAL: RANKING E ENCERRAMENTO -->
+<div class="slide" id="slide-ranking-final">
+    <div class="v-tag">Dinâmica Finalizada</div>
+    <div class="ranking-title">Hall da Fama</div>
+    
+    <!-- Destaque do Campeão -->
+    <div class="winner-podium" id="final-winner-display" style="display: none;">
+        <div class="winner-glow"></div>
+        <div class="crown-main">👑</div>
+        <div class="winner-name" id="top-player-name">Nome do Jogador</div>
+        <div class="winner-score" id="top-player-score">0 Pontos</div>
+    </div>
+
+    <!-- Lista dos demais -->
+    <div class="ranking-list" id="final-ranking-list">
+        <!-- Linhas injetadas via JS -->
+    </div>
+
+    <button class="s1-btn" onclick="location.reload()" style="margin-top: 30px;">Jogar Novamente ↺</button>
+</div>
 </body>
 </html>"""
 
